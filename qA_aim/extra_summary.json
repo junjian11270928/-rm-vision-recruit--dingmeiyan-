@@ -1,0 +1,37 @@
+{
+  "近距离陀螺": {
+    "frames": 2105,
+    "width": 1440,
+    "height": 1080,
+    "fps": 150.0,
+    "frames_with_candidates": 2105,
+    "candidate_rows": 2718,
+    "valid_pose_rows": 2577,
+    "failed_pose_rows": 141,
+    "pose_enabled": true,
+    "thresholds": {
+      "red_blue": 45,
+      "red_green": 25,
+      "brightness": 110
+    },
+    "notes": "No independent ground truth. Raw pose rows can include perspective/PnP noise; identity tracking not implemented.",
+    "reprojection_median_px": 0.8601879659478514
+  },
+  "装甲板_蓝": {
+    "frames": 1684,
+    "width": 640,
+    "height": 480,
+    "fps": 24.0,
+    "frames_with_candidates": 1507,
+    "candidate_rows": 2533,
+    "valid_pose_rows": null,
+    "failed_pose_rows": null,
+    "pose_enabled": false,
+    "thresholds": {
+      "blue_red": 30,
+      "blue_min": 180,
+      "green_min": 100
+    },
+    "notes": "Candidate coverage is not precision or recall. Hidden/occluded plates are not extrapolated. Blue pose columns intentionally blank."
+  }
+}

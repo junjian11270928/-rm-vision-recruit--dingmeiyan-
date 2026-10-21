@@ -1,0 +1,10 @@
+{
+  "candidate_rows": 3335,
+  "valid_pose_rows": 3249,
+  "failed_pose_rows": 86,
+  "frames_with_candidates": 2550,
+  "depth_median_m": 3.408914638723538,
+  "depth_min_m": 2.746005614706348,
+  "depth_max_m": 4.083853314185913,
+  "note": "Each dot is one plate detection. No plate ID tracking; do not interpret inter-dot changes as single-plate jumps. Yaw is a planar PnP estimate, not rotation speed."
+}

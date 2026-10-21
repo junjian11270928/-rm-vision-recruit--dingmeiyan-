@@ -1,0 +1,42 @@
+{
+  "base_config": {
+    "process_noise_density": [
+      3.0,
+      0.001,
+      0.001
+    ],
+    "measurement_std_m": [
+      0.01,
+      0.015,
+      0.06
+    ],
+    "soft_gate_sigma": 4.0,
+    "max_variance_multiplier": 100.0
+  },
+  "Q_multipliers": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "R_variance_multipliers": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "dt_s": 0.006666666666666667,
+  "horizon_s": 0.25,
+  "startup_excluded_s": 0.15,
+  "samples": 1482,
+  "input_sha256": "86d88a806ffb2f480f96ead8b29bc13a6ace992ec6603d858306d5d3e9f01511",
+  "future_observation": "Mean of frames f+37 and f+38; both must be finite",
+  "evaluation": "Comparison to future PnP observations, no independent ground truth",
+  "soft_gate": "Current adaptive variance inflation is kept active and identical in all experiments",
+  "initial_state": "Same zero-velocity initialization and fixed P0 for every run",
+  "roughness": "RMS of second differences of filtered x; proxy includes true dynamics, not an accuracy metric",
+  "delay": "Approximate 0..0.2s nonnegative shift minimizing filtered-x vs raw-observed-x MSE after 0.5s; not true sensor latency",
+  "parameter_search": "Descriptive sensitivity on this recording; not an independently validated optimum"
+}

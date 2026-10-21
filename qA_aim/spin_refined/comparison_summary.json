@@ -1,0 +1,36 @@
+{
+  "frames": 2550,
+  "candidates": 3335,
+  "same_candidates": true,
+  "baseline_sha256": "6d7da9552bd9e523a0910cbb46cad0f27652a8eee4e38592d0e3c93b6637b334",
+  "thresholds": {
+    "red_blue": 45,
+    "red_green": 25,
+    "brightness": 110
+  },
+  "before": {
+    "valid_poses": 3249,
+    "failed_poses": 86,
+    "reprojection_median_px": 0.7148865837747818,
+    "reprojection_p95_px": 2.137605602516232,
+    "depth_p01_m": 2.9869321942569886,
+    "depth_median_m": 3.408914638723538,
+    "depth_p99_m": 3.9071033128032284
+  },
+  "after": {
+    "valid_poses": 3249,
+    "failed_poses": 86,
+    "reprojection_median_px": 0.5678320091389327,
+    "reprojection_p95_px": 2.043432735000151,
+    "depth_p01_m": 3.0305862803699193,
+    "depth_median_m": 3.4075604260364765,
+    "depth_p99_m": 3.9722539738589933
+  },
+  "common_poses": 3239,
+  "common_before_median_px": 0.7124059447785086,
+  "common_after_median_px": 0.567128956978901,
+  "recovered_poses": 10,
+  "lost_poses": 10,
+  "mean_keypoint_change_px": 0.578619849356241,
+  "note": "No independent ground truth. Reprojection is a fitting residual, not distance accuracy. Depth tails remain; no forced circle, fixed-depth constraint, smoothing, or post-hoc point removal."
+}

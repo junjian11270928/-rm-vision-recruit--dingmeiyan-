@@ -1,0 +1,54 @@
+{
+  "远距离平移": {
+    "frames": 1546,
+    "frames_with_candidates": 1544,
+    "candidate_rows": 1544,
+    "valid_pose_rows": 1544,
+    "frame_coverage": 0.9987063389391979,
+    "reprojection_median_px": 0.22380430252797479
+  },
+  "prediction": {
+    "comparison": "prediction_at_t_vs_interpolated_observation_at_t_plus_0.25s",
+    "ground_truth": false,
+    "interpolation": "mean of adjacent frames f+37 and f+38; both must be valid",
+    "startup_excluded_s": 0.15,
+    "valid_comparisons": 1482,
+    "mean_euclidean_error_m": 0.21364013064426032,
+    "rmse_euclidean_m": 0.27111284266913677,
+    "p95_euclidean_error_m": 0.5883065210797329,
+    "axis_rmse_m": [
+      0.2581313812125973,
+      0.016264958445301236,
+      0.08127616268125253
+    ],
+    "rejected_observations": 0,
+    "softened_observations": 2,
+    "filter_config": {
+      "process_noise_density": [
+        3.0,
+        0.001,
+        0.001
+      ],
+      "measurement_std_m": [
+        0.01,
+        0.015,
+        0.06
+      ],
+      "soft_gate_sigma": 4.0,
+      "max_variance_multiplier": 100.0
+    }
+  },
+  "中距离陀螺": {
+    "frames": 2550,
+    "frames_with_candidates": 2550,
+    "candidate_rows": 3335,
+    "valid_pose_rows": 3249,
+    "frame_coverage": 1.0,
+    "reprojection_median_px": 0.7148865837747818,
+    "thresholds": {
+      "red_blue": 45,
+      "red_green": 25,
+      "brightness": 110
+    }
+  }
+}

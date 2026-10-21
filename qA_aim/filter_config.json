@@ -1,0 +1,14 @@
+{
+  "process_noise_density": [
+    3.0,
+    0.001,
+    0.001
+  ],
+  "measurement_std_m": [
+    0.01,
+    0.015,
+    0.06
+  ],
+  "soft_gate_sigma": 4.0,
+  "max_variance_multiplier": 100.0
+}

@@ -1,0 +1,36 @@
+{
+  "common_samples": {
+    "samples": 1257,
+    "old_rmse_m": 0.6227708145146081,
+    "new_rmse_m": 0.28019779104009157,
+    "old_max_m": 2.0086482767618685,
+    "new_max_m": 1.0021312348806106,
+    "old_mean_m": 0.46400081413801875,
+    "new_mean_m": 0.22229986597598164,
+    "rmse_reduction_percent": 55.0078801848671
+  },
+  "first_half_selection": {
+    "samples": 578,
+    "old_rmse_m": 0.6380329384997212,
+    "new_rmse_m": 0.2829432446432486,
+    "old_max_m": 1.7831191466535434,
+    "new_max_m": 0.8784142885434765,
+    "old_mean_m": 0.47599399934365233,
+    "new_mean_m": 0.21967838336775403
+  },
+  "second_half_check": {
+    "samples": 625,
+    "old_rmse_m": 0.5510594357773267,
+    "new_rmse_m": 0.27416786253439857,
+    "old_max_m": 2.0086482767618685,
+    "new_max_m": 1.0021312348806106,
+    "old_mean_m": 0.40262333517886084,
+    "new_mean_m": 0.21796419930057545
+  },
+  "coverage": {
+    "eligible_future_observations": 1482,
+    "old_predictions": 1257,
+    "new_predictions": 1482
+  },
+  "evaluation_note": "Same recorded video and PnP observations; no independent ground truth or new-video validation. Parameters selected by first-half RMSE, checked on second half."
+}

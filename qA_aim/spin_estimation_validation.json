@@ -1,0 +1,24 @@
+{
+  "exact_rotation": {
+    "max_center_error_m": 5.733487904616112e-14,
+    "max_omega_error_rad_s": 7.425171588693047e-13
+  },
+  "noisy_accelerating_rotation": {
+    "median_center_error_m": 0.0032210940808043327,
+    "median_omega_error_rad_s": 0.04738423570806294
+  },
+  "missing_observations": "PASS: output blank after 0.2s, recovers on valid observations",
+  "not_forced_fixed_center": "PASS: synthetic moving center produces changing center estimate",
+  "中距离陀螺": {
+    "prefix_causality": "PASS",
+    "row_count": 2550,
+    "initialization_blank_frames": 90,
+    "csv_format": "PASS"
+  },
+  "近距离陀螺": {
+    "prefix_causality": "PASS",
+    "row_count": 2105,
+    "initialization_blank_frames": 90,
+    "csv_format": "PASS"
+  }
+}

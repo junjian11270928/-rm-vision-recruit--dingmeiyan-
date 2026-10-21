@@ -1,0 +1,23 @@
+{
+  "近距离陀螺": {
+    "output_video_samples_decode": true,
+    "csv_rows": 2718,
+    "columns_valid": true,
+    "point_order_valid": true,
+    "video_frames": 2105,
+    "video_fps": 150.0,
+    "blue_pose_blank": false,
+    "depth_median_m": 2.3296062003227322,
+    "depth_min_m": 1.9640436669630597,
+    "depth_max_m": 2.6723378948826535
+  },
+  "装甲板_蓝": {
+    "output_video_samples_decode": true,
+    "csv_rows": 2533,
+    "columns_valid": true,
+    "point_order_valid": true,
+    "video_frames": 1684,
+    "video_fps": 24.0,
+    "blue_pose_blank": true
+  }
+}

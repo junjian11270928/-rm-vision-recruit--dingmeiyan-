@@ -1,0 +1,28 @@
+{
+  "远距离平移": {
+    "frames": 1546,
+    "frames_with_candidates": 1544,
+    "candidate_rows": 1544,
+    "valid_pose_rows": 1544,
+    "frame_coverage": 0.9987063389391979,
+    "reprojection_median_px": 0.22380430252797479
+  },
+  "prediction": {
+    "comparison": "prediction_at_t_vs_interpolated_observation_at_t_plus_0.25s",
+    "ground_truth": false,
+    "interpolation": "mean of adjacent frames f+37 and f+38; both must be valid",
+    "startup_excluded_s": 0.15,
+    "valid_comparisons": 1257,
+    "mean_euclidean_error_m": 0.46400081413801875,
+    "rmse_euclidean_m": 0.6227708145146081,
+    "p95_euclidean_error_m": 1.311012452664287,
+    "axis_rmse_m": [
+      0.6074786821237672,
+      0.02380584032589742,
+      0.13507931056507677
+    ],
+    "rejected_observations": 422,
+    "Q_acceleration_std_m_s2": 3.0,
+    "R_measurement_std_m": 0.03
+  }
+}
