@@ -1,0 +1,59 @@
+{
+  "远距离平移": {
+    "frames": 1546,
+    "frames_with_candidates": 1349,
+    "candidate_rows": 1352,
+    "valid_pose_rows": 1341,
+    "frame_coverage": 0.8725743855109961,
+    "reprojection_median_px": 0.11884600469291952,
+    "yolo_settings": {
+      "confidence": 0.25,
+      "iou": 0.45
+    },
+    "detector": "YOLO ONNX exp-2"
+  },
+  "prediction": {
+    "comparison": "prediction_at_t_vs_interpolated_observation_at_t_plus_0.25s",
+    "ground_truth": false,
+    "interpolation": "mean of adjacent frames f+37 and f+38; both must be valid",
+    "startup_excluded_s": 0.15,
+    "valid_comparisons": 494,
+    "mean_euclidean_error_m": 0.4852228319952344,
+    "rmse_euclidean_m": 0.567945977854473,
+    "p95_euclidean_error_m": 0.9698766519823154,
+    "axis_rmse_m": [
+      0.40099779053405077,
+      0.07353220336420174,
+      0.39541929747584253
+    ],
+    "rejected_observations": 0,
+    "softened_observations": 382,
+    "filter_config": {
+      "process_noise_density": [
+        3.0,
+        0.001,
+        0.001
+      ],
+      "measurement_std_m": [
+        0.01,
+        0.015,
+        0.06
+      ],
+      "soft_gate_sigma": 4.0,
+      "max_variance_multiplier": 100.0
+    }
+  },
+  "中距离陀螺": {
+    "frames": 2550,
+    "frames_with_candidates": 2539,
+    "candidate_rows": 3454,
+    "valid_pose_rows": 3453,
+    "frame_coverage": 0.995686274509804,
+    "reprojection_median_px": 0.15974546094867148,
+    "yolo_settings": {
+      "confidence": 0.25,
+      "iou": 0.45
+    },
+    "detector": "YOLO ONNX exp-2"
+  }
+}

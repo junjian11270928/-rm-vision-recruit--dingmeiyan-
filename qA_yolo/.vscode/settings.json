@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "python",
+  "files.encoding": "utf8",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 16
+}

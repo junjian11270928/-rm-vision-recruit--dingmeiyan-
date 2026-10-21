@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "description": "Ultralytics YOLO26n-pose model trained on /home/ubuntu/platform-worker/releases/20260911/datasets/armor-cloud-pose-platform-986b64e2/data.yaml",
+    "author": "Ultralytics",
+    "date": "2026-09-30T13:15:27.707462+08:00",
+    "version": "8.4.165",
+    "license": "AGPL-3.0 License (https://ultralytics.com/license)",
+    "docs": "https://docs.ultralytics.com",
+    "stride": "32",
+    "task": "pose",
+    "head": "Pose26",
+    "batch": "1",
+    "imgsz": "[640, 640]",
+    "names": "{0: 'B1', 1: 'B2', 2: 'B3', 3: 'B4', 4: 'B5', 5: 'BO', 6: 'BS', 7: 'R1', 8: 'R2', 9: 'R3', 10: 'R4', 11: 'R5', 12: 'RO', 13: 'RS'}",
+    "args": "{'data': None, 'batch': 1, 'fraction': 1.0, 'quantize': None, 'nms': None, 'dynamic': False, 'simplify': True, 'opset': 17}",
+    "channels": "3",
+    "end2end": "False",
+    "kpt_shape": "[4, 2]",
+    "kpt_names": "{0: ['0', '1', '2', '3'], 1: ['0', '1', '2', '3'], 2: ['0', '1', '2', '3'], 3: ['0', '1', '2', '3'], 4: ['0', '1', '2', '3'], 5: ['0', '1', '2', '3'], 6: ['0', '1', '2', '3'], 7: ['0', '1', '2', '3'], 8: ['0', '1', '2', '3'], 9: ['0', '1', '2', '3'], 10: ['0', '1', '2', '3'], 11: ['0', '1', '2', '3'], 12: ['0', '1', '2', '3'], 13: ['0', '1', '2', '3']}"
+  },
+  "model_sha256": "521269c1bcf72f2631d03b84ed9c9b92271005a38cc37665f7d2941659cfa910",
+  "order_test": "pass",
+  "degenerate_quad_test": "pass",
+  "samples": [
+    {
+      "video": "远距离平移",
+      "frame": 0,
+      "detections": 1,
+      "inference_ms": 53.69599998812191,
+      "classes": [
+        "R2"
+      ]
+    },
+    {
+      "video": "远距离平移",
+      "frame": 100,
+      "detections": 0,
+      "inference_ms": 35.61620000982657,
+      "classes": []
+    },
+    {
+      "video": "远距离平移",
+      "frame": 200,
+      "detections": 1,
+      "inference_ms": 26.074199995491654,
+      "classes": [
+        "RS"
+      ]
+    },
+    {
+      "video": "中距离陀螺",
+      "frame": 0,
+      "detections": 2,
+      "inference_ms": 22.078200010582805,
+      "classes": [
+        "RS",
+        "R2"
+      ]
+    },
+    {
+      "video": "中距离陀螺",
+      "frame": 100,
+      "detections": 1,
+      "inference_ms": 35.876299982191995,
+      "classes": [
+        "RS"
+      ]
+    },
+    {
+      "video": "中距离陀螺",
+      "frame": 200,
+      "detections": 2,
+      "inference_ms": 36.10360002494417,
+      "classes": [
+        "R2",
+        "R2"
+      ]
+    },
+    {
+      "video": "近距离陀螺",
+      "frame": 0,
+      "detections": 2,
+      "inference_ms": 45.373400003882125,
+      "classes": [
+        "R2",
+        "RS"
+      ]
+    },
+    {
+      "video": "近距离陀螺",
+      "frame": 100,
+      "detections": 1,
+      "inference_ms": 25.531499995850027,
+      "classes": [
+        "RS"
+      ]
+    },
+    {
+      "video": "近距离陀螺",
+      "frame": 200,
+      "detections": 2,
+      "inference_ms": 30.234699981519952,
+      "classes": [
+        "RS",
+        "R2"
+      ]
+    },
+    {
+      "video": "装甲板_蓝",
+      "frame": 0,
+      "detections": 0,
+      "inference_ms": 33.855199988465756,
+      "classes": []
+    },
+    {
+      "video": "装甲板_蓝",
+      "frame": 100,
+      "detections": 3,
+      "inference_ms": 33.51360000669956,
+      "classes": [
+        "B4",
+        "B3",
+        "B3"
+      ]
+    },
+    {
+      "video": "装甲板_蓝",
+      "frame": 200,
+      "detections": 1,
+      "inference_ms": 33.02979998989031,
+      "classes": [
+        "B4"
+      ]
+    }
+  ],
+  "full_pipeline": [
+    {
+      "video": "远距离平移",
+      "frames": 1546,
+      "candidate_rows": 1352,
+      "first_middle_last_decode": "pass"
+    },
+    {
+      "video": "中距离陀螺",
+      "frames": 2550,
+      "candidate_rows": 3454,
+      "first_middle_last_decode": "pass"
+    },
+    {
+      "video": "近距离陀螺",
+      "frames": 2105,
+      "candidate_rows": 2779,
+      "first_middle_last_decode": "pass"
+    },
+    {
+      "video": "装甲板_蓝",
+      "frames": 1684,
+      "candidate_rows": 3623,
+      "first_middle_last_decode": "pass"
+    }
+  ],
+  "spin_estimation": "Completed on newly generated YOLO middle and near observations"
+}

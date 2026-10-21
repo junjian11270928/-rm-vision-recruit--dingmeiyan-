@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "中距离YOLO识别",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/preview_yolo.py",
+      "args": [
+        "--video",
+        "中距离陀螺"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

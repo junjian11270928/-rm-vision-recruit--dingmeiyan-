@@ -1,0 +1,104 @@
+{
+  "中距离陀螺": {
+    "frames": 2550,
+    "valid_center_frames": 2460,
+    "valid_omega_frames": 2460,
+    "first_valid_center_s": 0.6,
+    "center_median_m": [
+      -0.06957396255540416,
+      -0.24797524210976743,
+      3.747388009763494
+    ],
+    "center_std_m": [
+      0.024397524481010638,
+      0.003093278440598805,
+      0.028115746237951097
+    ],
+    "center_p05_m": [
+      -0.10718450085535783,
+      -0.2534021179807847,
+      3.7060018052296027
+    ],
+    "center_p95_m": [
+      -0.028576042930816316,
+      -0.2431704658076075,
+      3.798188948725451
+    ],
+    "omega_median_rad_s": -20.692300608152628,
+    "omega_p05_rad_s": -31.046085917530128,
+    "omega_p95_rad_s": -15.462153528260092,
+    "median_abs_turns_per_s": 3.293281925730923,
+    "radius_median_m": 0.29576759689749077,
+    "model_fit_median_m": 0.275383411770178,
+    "init_phase_coherence": 0.3478497784374232,
+    "config": {
+      "plates": 4,
+      "fps": 150.0,
+      "initialization_s": 0.6,
+      "center_window_s": 0.6,
+      "phase_measurement_std_rad": 0.12,
+      "angular_acceleration_density": 4.0,
+      "center_position_std_m": [
+        0.02,
+        0.02,
+        0.08
+      ],
+      "minimum_center_samples": 20,
+      "min_radius_m": 0.05,
+      "max_radius_m": 0.8,
+      "max_unobserved_s": 0.2
+    },
+    "caveat": "Model-dependent estimates, not ground truth. Center height is mean armor-center plane. Four equal angular spacings/shared radius assumed; original pose outliers remain. Window uses current and past observations only."
+  },
+  "近距离陀螺": {
+    "frames": 2105,
+    "valid_center_frames": 2015,
+    "valid_omega_frames": 2015,
+    "first_valid_center_s": 0.6,
+    "center_median_m": [
+      -0.010080431810026212,
+      -0.10973087965562422,
+      2.6060228359376496
+    ],
+    "center_std_m": [
+      0.02466687054957125,
+      0.0024800053144062788,
+      0.01765854987149155
+    ],
+    "center_p05_m": [
+      -0.05068280215260452,
+      -0.11401625133007028,
+      2.571602649669408
+    ],
+    "center_p95_m": [
+      0.026518825589669896,
+      -0.10568548421640168,
+      2.6302821318844263
+    ],
+    "omega_median_rad_s": -21.95545642795549,
+    "omega_p05_rad_s": -30.111893872250477,
+    "omega_p95_rad_s": -13.09882712086735,
+    "median_abs_turns_per_s": 3.494319418347844,
+    "radius_median_m": 0.27909270698592015,
+    "model_fit_median_m": 0.1684899596424876,
+    "init_phase_coherence": 0.4376315313318078,
+    "config": {
+      "plates": 4,
+      "fps": 150.0,
+      "initialization_s": 0.6,
+      "center_window_s": 0.6,
+      "phase_measurement_std_rad": 0.12,
+      "angular_acceleration_density": 4.0,
+      "center_position_std_m": [
+        0.02,
+        0.02,
+        0.08
+      ],
+      "minimum_center_samples": 20,
+      "min_radius_m": 0.05,
+      "max_radius_m": 0.8,
+      "max_unobserved_s": 0.2
+    },
+    "caveat": "Model-dependent estimates, not ground truth. Center height is mean armor-center plane. Four equal angular spacings/shared radius assumed; original pose outliers remain. Window uses current and past observations only."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "近距离陀螺": {
+    "frames": 2105,
+    "width": 1440,
+    "height": 1080,
+    "fps": 150.0,
+    "frames_with_candidates": 2083,
+    "candidate_rows": 2779,
+    "valid_pose_rows": 2772,
+    "failed_pose_rows": 7,
+    "pose_enabled": true,
+    "yolo_settings": {
+      "confidence": 0.25,
+      "iou": 0.45
+    },
+    "detector": "YOLO ONNX exp-2",
+    "notes": "No independent ground truth. Raw pose rows can include perspective/PnP noise; identity tracking not implemented.",
+    "reprojection_median_px": 0.28380279441969514
+  },
+  "装甲板_蓝": {
+    "frames": 1684,
+    "width": 640,
+    "height": 480,
+    "fps": 24.0,
+    "frames_with_candidates": 1672,
+    "candidate_rows": 3623,
+    "valid_pose_rows": null,
+    "failed_pose_rows": null,
+    "pose_enabled": false,
+    "yolo_settings": {
+      "confidence": 0.25,
+      "iou": 0.45
+    },
+    "detector": "YOLO ONNX exp-2",
+    "notes": "Candidate coverage is not precision or recall. Hidden/occluded plates are not extrapolated. Blue pose columns intentionally blank."
+  }
+}
