@@ -1,0 +1,39 @@
+{
+  "image_count": 20,
+  "image_size_wh": [
+    640,
+    480
+  ],
+  "inner_corners_cols_rows": [
+    8,
+    5
+  ],
+  "square_size_mm": 33.0,
+  "opencv_rms_px": 0.2072794094141301,
+  "camera_matrix": [
+    [
+      679.8493973523285,
+      0.0,
+      313.5651299765934
+    ],
+    [
+      0.0,
+      679.9170018021118,
+      239.37191508971026
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion_coefficients": [
+    0.15283405452469032,
+    0.18595483143223576,
+    0.0032416735060227134,
+    -0.001912247402877803,
+    -3.704502170637702
+  ],
+  "maximum_K_difference_from_saved_px": 1.988638587135938e-08,
+  "note": "Recomputed from preserved images, not new captures; corner detections can differ by OpenCV version."
+}

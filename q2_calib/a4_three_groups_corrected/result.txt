@@ -1,0 +1,5 @@
+Three groups; group 1 ruler corrected to 578.6 mm.
+These are saved measurements, not validated accuracy results.
+Group 1: ruler 578.60 mm, PnP 501.68 mm, absolute error 76.92 mm, relative error 13.29%
+Group 2: ruler 389.30 mm, PnP 298.87 mm, absolute error 90.43 mm, relative error 23.23%
+Group 3: ruler 304.30 mm, PnP 387.71 mm, absolute error 83.41 mm, relative error 27.41%
