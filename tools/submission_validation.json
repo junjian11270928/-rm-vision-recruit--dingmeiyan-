@@ -1,0 +1,102 @@
+{
+  "checked_at": "2026-10-21T21:56:50.242159+08:00",
+  "python_syntax": [
+    "q1_env/check_environment.py",
+    "q2_calib/calibrate_usb.py",
+    "q2_calib/measure_a4.py",
+    "q2_calib/reproduce_calibration.py",
+    "q2_calib/take_photos.py",
+    "q2_calib/undistort_image.py",
+    "qA_aim/analyze_qr.py",
+    "qA_aim/armor_step1.py",
+    "qA_aim/blue_detector.py",
+    "qA_aim/compare_distortion.py",
+    "qA_aim/compare_spin.py",
+    "qA_aim/estimate_spin.py",
+    "qA_aim/plot_spin.py",
+    "qA_aim/render_from_csv.py",
+    "qA_aim/run_analysis.py",
+    "qA_aim/run_extra.py",
+    "qA_aim/spin_pose_refined.py",
+    "qA_aim/tune_spin.py",
+    "qA_aim/tune_thresholds.py",
+    "qA_yolo/analyze_qr.py",
+    "qA_yolo/armor_step1.py",
+    "qA_yolo/blue_detector.py",
+    "qA_yolo/estimate_spin.py",
+    "qA_yolo/launch.py",
+    "qA_yolo/plot_spin.py",
+    "qA_yolo/preview_yolo.py",
+    "qA_yolo/run_analysis.py",
+    "qA_yolo/run_extra.py",
+    "qA_yolo/yolo_detector.py",
+    "tools/check_spin_model.py",
+    "tools/export_previews.py",
+    "tools/validate_submission.py",
+    "q2_calib/historical_scripts/calibrate.py",
+    "q2_calib/historical_scripts/capture_calibration.py",
+    "q2_calib/historical_scripts/vision_test/vision_test/vision_test/black_and_white3.32.py",
+    "q2_calib/historical_scripts/vision_test/vision_test/vision_test/import cv2.py",
+    "qA_aim/调整前备份/run_analysis.py"
+  ],
+  "variants": {
+    "qA_aim": {
+      "远距离平移": {
+        "frames": 1546,
+        "candidates": 1544,
+        "valid_poses": 1544,
+        "video": "PASS"
+      },
+      "中距离陀螺": {
+        "frames": 2550,
+        "candidates": 3335,
+        "valid_poses": 3249,
+        "video": "PASS"
+      },
+      "近距离陀螺": {
+        "frames": 2105,
+        "candidates": 2718,
+        "valid_poses": 2577,
+        "video": "PASS"
+      },
+      "装甲板_蓝": {
+        "frames": 1684,
+        "candidates": 2533,
+        "valid_poses": 0,
+        "video": "PASS"
+      }
+    },
+    "qA_yolo": {
+      "远距离平移": {
+        "frames": 1546,
+        "candidates": 1352,
+        "valid_poses": 1341,
+        "video": "PASS"
+      },
+      "中距离陀螺": {
+        "frames": 2550,
+        "candidates": 3454,
+        "valid_poses": 3453,
+        "video": "PASS"
+      },
+      "近距离陀螺": {
+        "frames": 2105,
+        "candidates": 2779,
+        "valid_poses": 2772,
+        "video": "PASS"
+      },
+      "装甲板_蓝": {
+        "frames": 1684,
+        "candidates": 3623,
+        "valid_poses": 0,
+        "video": "PASS"
+      }
+    }
+  },
+  "main_forecast_recomputed": {
+    "samples": 1482,
+    "rmse_m": 0.27111284266913677
+  },
+  "status": "PASS",
+  "note": "Format/consistency checks, not accuracy certification."
+}
