@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-21T21:49:53.637518+08:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.5.4",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3"
+  },
+  "checks": {
+    "python_310_plus": "PASS",
+    "numpy": "PASS",
+    "opencv_png": "PASS",
+    "opencv_calibration_functions": "PASS",
+    "matplotlib_agg": "PASS",
+    "pyyaml": "PASS"
+  }
+}
